@@ -1,0 +1,40 @@
+From 970de582fc3d87adeee956f4482355f9d049b9d5 Mon Sep 17 00:00:00 2001
+From: adarshkreditbee <adarsh.agarwal@kreditbee.in>
+Date: Thu, 8 Apr 2021 18:59:53 +0530
+Subject: [PATCH 3/4] add a for loop in python file and store the results in a
+ new file
+
+---
+ adarsh-results.txt | 10 ++++++++++
+ adarsh.py          |  2 ++
+ 2 files changed, 12 insertions(+)
+ create mode 100644 adarsh-results.txt
+ create mode 100644 adarsh.py
+
+diff --git a/adarsh-results.txt b/adarsh-results.txt
+new file mode 100644
+index 0000000..8b1acc1
+--- /dev/null
++++ b/adarsh-results.txt
+@@ -0,0 +1,10 @@
++0
++1
++2
++3
++4
++5
++6
++7
++8
++9
+diff --git a/adarsh.py b/adarsh.py
+new file mode 100644
+index 0000000..5f208bf
+--- /dev/null
++++ b/adarsh.py
+@@ -0,0 +1,2 @@
++for i in range (10):
++  print(i)
+-- 
+2.7.4
+
