@@ -1,0 +1,60 @@
+div {
+    background-color: aqua;
+    padding: 0.25rem;
+}
+
+a {
+    color: pink;
+}
+
+#foo-bar {
+    letter-spacing: normal;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.blank-iframes {
+    display: block;
+    margin: 20px;
+}
+
+form {
+    background-color: greenyellow;
+    padding: 20px;
+}
+
+.form-inputs {
+    padding: 15px;
+}
+
+button:hover {
+    background-color: khaki;
+    cursor: pointer;
+}
+
+a:visited {
+    color: green
+}
+
+#heading {
+    text-align:center
+}
+
+#positioning {
+    position: relative;
+}
+
+#positioning button:nth-child(3) {
+    position: absolute;
+    color: salmon;
+}
+
+#positioning button:nth-child(2) {
+    color: black;
+    position: sticky;
+    bottom: 0;
+    border: 0.1rem solid #000000;
+    padding: 10px;
+    border-radius: 0.5em;
+    margin-right: 1%;
+}
