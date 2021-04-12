@@ -7,6 +7,17 @@ absoluteButton.addEventListener("click", () => {
 });
 
 stickyButton.addEventListener("click", () => {
-    console.log(invisiblePara)
-    invisiblePara[0].style.display = "block"
+  console.log(invisiblePara);
+  invisiblePara[0].style.display = "block";
 });
+
+fetch("http://localhost:3001/api")
+  .then((response) => {
+    //   var node = document.createElement("table"); // Create a <li> node
+    //   var textnode = node.appendChild("tr");
+    return response.json();
+    //   document.getElementById("positioning").appendChild();
+  })
+  .then((data) => {
+    console.log(data);
+  });
