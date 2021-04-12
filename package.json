@@ -1,0 +1,26 @@
+{
+  "name": "foo-bar",
+  "version": "1.0.0",
+  "description": "A sample project to create a dynamic personal website.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adarshkreditbee/foo-bar.git"
+  },
+  "keywords": [
+    "training",
+    "nodejs"
+  ],
+  "author": "Adarsh Agarwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adarshkreditbee/foo-bar/issues"
+  },
+  "homepage": "https://github.com/adarshkreditbee/foo-bar#readme",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
