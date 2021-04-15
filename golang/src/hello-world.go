@@ -5,6 +5,13 @@ import (
   "math"
 )
 
+// Find the sum of two numbers
+func add(a int, b int) int {
+	fmt.Println("Sum = ")
+	fmt.Println(a + b)
+	return a+b
+}
+
 func sendValues(myIntChannel chan int) {
 
 	for i := 1; i < 5; i++ {
@@ -12,9 +19,10 @@ func sendValues(myIntChannel chan int) {
 	}
 }
 
-// func WelcomeMessage() {
-// 	fmt.Println("Welcome on Board")
-// }
+/* func WelcomeMessage() {
+ 	fmt.Println("Welcome on Board")
+	}
+*/
 
 func main() {
 
